@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/homepage">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="MARVEL\nCHARACTERS"
+    android:textSize="60sp"
+    android:textStyle="bold"
+    android:textColor="#FBFBFB"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:fontFamily="@font/comebackhome"
+    />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:padding="16dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp">
+
+
+
+        <Button
+            android:id="@+id/btnBeast"
+            style="@style/CustomButton"
+            android:layout_columnWeight="1"
+            android:text="BEAST"
+            android:textColor="@color/black"
+            android:backgroundTint="#9FA9A8"/>
+
+        <Button
+            android:id="@+id/btnIronMan"
+            style="@style/CustomButton"
+            android:layout_columnWeight="1"
+            android:text="IRON MAN"
+            android:textColor="@color/black"
+            android:backgroundTint="#9FA9A8"/>
+
+        <Button
+            android:id="@+id/btnHulk"
+            style="@style/CustomButton"
+            android:layout_columnWeight="1"
+            android:text="HULK"
+            android:textColor="@color/black"
+            android:backgroundTint="#9FA9A8"/>
+
+        <Button
+            android:id="@+id/btnThor"
+            style="@style/CustomButton"
+            android:layout_columnWeight="1"
+            android:text="THOR"
+            android:textColor="@color/black"
+            android:backgroundTint="#9FA9A8"/>
+
+        <Button
+            android:id="@+id/btnBlackWidow"
+            style="@style/CustomButton"
+            android:layout_columnWeight="1"
+            android:text="BLACK WIDOW"
+            android:textColor="@color/black"
+            android:backgroundTint="#9FA9A8"/>
+
+        <Button
+            android:id="@+id/btnMagneto"
+            style="@style/CustomButton"
+            android:layout_columnWeight="1"
+            android:text="MAGNETO"
+            android:textColor="@color/black"
+            android:backgroundTint="#9FA9A8"/>
+
+        <Button
+            android:id="@+id/btnWolverine"
+            style="@style/CustomButton"
+            android:layout_columnWeight="1"
+            android:text="WOLVERINE"
+            android:textColor="@color/black"
+            android:backgroundTint="#9FA9A8"/>
+
+        <Button
+            android:id="@+id/btnWStorm"
+            style="@style/CustomButton"
+            android:layout_columnWeight="1"
+            android:text="STORM"
+            android:textColor="@color/black"
+            android:backgroundTint="#9FA9A8"/>
+
+    </GridLayout>
+
+
+
+</LinearLayout>
